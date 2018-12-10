@@ -32,7 +32,16 @@ const User = (props) => (
           alignItems: 'center'
         }}>
           <section style={{flex: 1, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
-            <h5 className="user-name">Shraddha Kapoor</h5>
+            <h5 className="user-name">
+              <a href="https://www.instagram.com/shraddhakapoor/?hl=en" target="_blank"
+                style={{
+                  textDecoration: 'none',
+                  color: 'inherit'
+                }}
+              >
+                Shraddha Kapoor
+              </a>
+            </h5>
             <span className="verified-badge"></span>
             <Button outline size="sm" style={{marginLeft: '29px'}}>Following</Button>
           </section>
