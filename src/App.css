@@ -1,0 +1,129 @@
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+  flex-grow: 1;
+  align-items: stretch;
+
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.App-Container {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  align-items: stretch;
+
+  background-color: #fafafa;
+  color: #262626;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+}
+
+.App {
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+  flex-grow: 1;
+  align-items: stretch;
+
+  padding: 7px;
+
+  overflow: auto;
+}
+
+.center-flex {
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+}
+
+.verified-badge {
+  background-position: -42px -425px;
+  height: 18px;
+  width: 18px;
+
+  background-repeat: no-repeat;
+
+  background-image: url(https://www.instagram.com/static/bundles/base/sprite_core.png/00b79edf00fd.png)
+}
+
+.heart-badge {
+  background-position: -427px -401px;
+  height: 19px;
+  width: 19px;
+
+  background-repeat: no-repeat;
+
+  background-image: url(https://www.instagram.com/static/bundles/base/sprite_core.png/00b79edf00fd.png)
+}
+
+.empty-heart-badge {
+  background-position: 0 -400px;
+  width: 24px;
+	height: 21px;
+
+  background-repeat: no-repeat;
+
+  background-image: url(https://www.instagram.com/static/bundles/base/sprite_core.png/00b79edf00fd.png)
+}
+
+.user-name {
+  margin-bottom: 0.3rem;
+  margin: 7px;
+}
+
+.user-meta-info {
+  margin: 7px
+}
+
+.muted-text {
+  color: grey;
+  font-size: 12px;
+  margin: 0 5px;
+}
+
+.profile-img-holder {
+  flex: 0 0 auto;
+
+  background-color: #fafafa;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  
+  overflow: hidden;
+  position: relative;
+
+  align-items: stretch;
+  border: 0 solid #000;
+  box-sizing: border-box;
+
+  cursor: pointer;
+}
+
+.modal-dialog {
+  max-width: 83% !important;
+  margin: 3.33rem;
+}
+
+.modal-info-section {
+  display: 'flex'; 
+  flex: 1;
+  flex-direction: 'row'; 
+  align-items: 'center';
+
+  border-bottom: thin solid #DEDEDE;
+  margin: 7px 0;
+}
