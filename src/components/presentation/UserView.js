@@ -34,6 +34,7 @@ const User = (props) => (
           <section style={{flex: 1, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
             <h5 className="user-name">
               <a href="https://www.instagram.com/shraddhakapoor/?hl=en" target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   textDecoration: 'none',
                   color: 'inherit'
