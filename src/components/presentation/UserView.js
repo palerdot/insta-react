@@ -21,7 +21,7 @@ const User = (props) => (
           alignItems: 'center'
         }}>
           <div className="profile-img-holder">
-            <img alt="" src="https://instagram.fblr1-3.fna.fbcdn.net/vp/673ff496d789e25c3da6aff0bd0e8884/5CA184B0/t51.2885-19/s150x150/37077287_572658719796014_6584344568831934464_n.jpg" />
+	   <img alt="" src="/images/0.jpg" style={{width: "150px", height: "150px"}}/>
           </div>
         </section>
         <section style={{
