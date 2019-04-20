@@ -2,7 +2,7 @@
 import React, { Fragment } from 'react'
 import { toast } from 'react-toastify'
 
-import { Container, Row, Button } from 'reactstrap'
+import { Container, Row, Col, Button } from 'reactstrap'
 
 const User = props => (
   <Container>
@@ -12,6 +12,7 @@ const User = props => (
           display: 'flex',
           flex: 1,
           flexDirection: 'row',
+          marginBottom: '1.7em',
         }}
       >
         <section
@@ -39,7 +40,7 @@ const User = props => (
             alignItems: 'center',
           }}
         >
-          <section
+          {/* <section
             style={{
               flex: 1,
               justifyContent: 'center',
@@ -47,33 +48,54 @@ const User = props => (
               display: 'flex',
             }}
           >
-            <h5 className="user-name">
-              <a
-                href="https://www.instagram.com/shraddhakapoor/?hl=en"
-                target="_blank"
-                rel="noopener noreferrer"
+            
+          </section> */}
+          <Row
+            style={{
+              flex: 1,
+              justifyContent: 'center',
+              alignItems: 'center',
+              display: 'flex',
+            }}
+          >
+            <Col xs="12" md="8">
+              <h5 className="user-name">
+                <a
+                  href="https://www.instagram.com/shraddhakapoor/?hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    textDecoration: 'none',
+                    color: 'inherit',
+                    fontSize: '1.71rem',
+                  }}
+                >
+                  Shraddha Kapoor
+                </a>
+              </h5>
+            </Col>
+            <Col xs="1" md="1">
+              <span
+                className="verified-badge"
                 style={{
-                  textDecoration: 'none',
-                  color: 'inherit',
+                  display: 'flex',
+                }}
+              />
+            </Col>
+            <Col xs="10" md="3">
+              <Button
+                outline
+                size="sm"
+                style={{
+                  color: '#fff',
+                  backgroundColor: '#6c757d',
+                  borderColor: '#6c757d',
                 }}
               >
-                Shraddha Kapoor
-              </a>
-            </h5>
-            <span className="verified-badge" />
-            <Button
-              outline
-              size="sm"
-              style={{
-                marginLeft: '29px',
-                color: '#fff',
-                backgroundColor: '#6c757d',
-                borderColor: '#6c757d',
-              }}
-            >
-              Following
-            </Button>
-          </section>
+                Following
+              </Button>
+            </Col>
+          </Row>
           <section
             style={{
               flex: 1,
@@ -92,7 +114,7 @@ const User = props => (
               <strong>101</strong> following
             </span>
           </section>
-          <section
+          <Row
             style={{
               flex: 1,
               justifyContent: 'center',
@@ -100,10 +122,16 @@ const User = props => (
               display: 'flex',
             }}
           >
-            <span className="muted-text">Followed by</span>
-            <MeditationsLink />
-            <span className="muted-text">+1 more</span>
-          </section>
+            <Col xs="12" md="4">
+              <span className="muted-text">Followed by</span>
+            </Col>
+            <Col xs="12" md="4">
+              <MeditationsLink />
+            </Col>
+            <Col xs="12" md="4">
+              <span className="muted-text">+1 more</span>
+            </Col>
+          </Row>
         </section>
       </header>
     </Row>
@@ -145,7 +173,6 @@ function MeditationsLink() {
               color: '#DEDEDE',
               cursor: 'pointer',
               fontSize: '13px',
-              padding: '0 3px',
             }}
             onClick={() => toast(m.meditation, toastOptions)}
           >
