@@ -13,7 +13,6 @@ import { persistStore, persistReducer } from 'redux-persist'
 import { PersistGate } from 'redux-persist/integration/react'
 import storage from 'redux-persist/lib/storage'
 
-
 // create a redux store
 import { createStore } from 'redux'
 import appReducer from './reducers'
@@ -21,6 +20,7 @@ import appReducer from './reducers'
 import App from './App'
 
 import registerServiceWorker from './registerServiceWorker'
+// import { unregister } from './registerServiceWorker'
 
 const persistConfig = {
   key: 'root',
@@ -41,9 +41,9 @@ ReactDOM.render(
       <App />
     </PersistGate>
     {/*<App />*/}
-  </Provider>, 
+  </Provider>,
   document.getElementById('root')
 )
 
-
 registerServiceWorker()
+// unregister()

@@ -25,7 +25,7 @@ const User = props => (
           <div className="profile-img-holder">
             <img
               alt=""
-              src="/images/0.jpg"
+              src={`${process.env.PUBLIC_URL}/images/0.jpg`}
               style={{ width: '150px', height: '150px' }}
             />
           </div>

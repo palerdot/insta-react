@@ -40,7 +40,6 @@ html, body {
   align-items: stretch;
 
   padding: 7px;
-  margin-bottom: 7.7em;
 
   overflow: auto;
 }
@@ -59,6 +58,10 @@ html, body {
   background-repeat: no-repeat;
 
   background-image: url(https://www.instagram.com/static/bundles/base/sprite_core.png/00b79edf00fd.png)
+}
+
+.Posts-view {
+  margin-bottom: 7.7em;
 }
 
 .heart-badge {
