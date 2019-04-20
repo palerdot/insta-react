@@ -21,8 +21,8 @@ html, body {
   flex-grow: 1;
   align-items: stretch;
 
-  background-color: #fafafa;
-  color: #262626;
+  background-color: #333;
+  color: #DEDEDE;
 }
 
 .header {
@@ -91,7 +91,7 @@ html, body {
 }
 
 .muted-text {
-  color: grey;
+  color: #AAA;
   font-size: 12px;
   margin: 0 5px;
 }
@@ -127,4 +127,19 @@ html, body {
 
   border-bottom: thin solid #DEDEDE;
   margin: 7px 0;
+}
+
+/* styles for meditations */
+.meditation-main {
+  background: #333;
+  color: #DEDEDE;
+  border: thin solid #777;
+}
+
+.meditation-body {
+  padding: 7px 17px;
+}
+
+.meditation-progress {
+  background: steelblue;
 }
