@@ -131,6 +131,7 @@ function MeditationsLink() {
     className: 'meditation-main',
     bodyClassName: 'meditation-body',
     progressClassName: 'meditation-progress',
+    autoClose: 29000,
   }
 
   // construct the meditation link for each of them

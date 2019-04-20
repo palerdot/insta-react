@@ -1,5 +1,6 @@
 {
   "name": "simple-react-redux",
+  "homepage": "https://palerdot.in/insta-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
