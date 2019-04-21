@@ -140,7 +140,10 @@ html, body {
 }
 
 .meditation-body {
-  padding: 7px 17px;
+  padding: 17px 29px;
+  max-height: 333px;
+  overflow-y: auto;
+  line-height: 29px;
 }
 
 .meditation-progress {

@@ -125,7 +125,13 @@ const User = props => (
             <Col xs="12" md="4">
               <span className="muted-text">Followed by</span>
             </Col>
-            <Col xs="12" md="4">
+            <Col
+              xs="12"
+              md="4"
+              style={{
+                paddingLeft: '19px',
+              }}
+            >
               <MeditationsLink />
             </Col>
             <Col xs="12" md="4">
