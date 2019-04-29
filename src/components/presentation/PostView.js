@@ -32,7 +32,7 @@ class PostView extends React.Component {
         >
           {props.type === 'video' ? (
             <video
-              controls
+              controls={false}
               style={{
                 width: '100%',
               }}
