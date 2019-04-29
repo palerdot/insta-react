@@ -70,13 +70,24 @@ class PostsView extends React.Component {
   render() {
     return (
       <Container className="Posts-view">
-        <Button
+        {/* <Button
           color="success"
           outline
           size="sm"
           onClick={() => this.showUploadModal()}
         >
           Add Post
+        </Button> */}
+        <Button
+          color="primary"
+          outline
+          size="sm"
+          onClick={() => {
+            localStorage.clear()
+            window.location.reload()
+          }}
+        >
+          Refresh
         </Button>
         <Row>
           {_map(this.props.posts, (post, index) => (

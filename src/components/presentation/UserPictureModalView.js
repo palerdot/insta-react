@@ -45,11 +45,24 @@ const UserPictureModalView = props => (
             }}
           >
             <div>
-              <img
-                src={props.post.Image}
-                style={{ display: 'flex', width: '100%' }}
-                alt=""
-              />
+              {props.post.type === 'video' ? (
+                <video
+                  controls
+                  style={{
+                    display: 'flex',
+                    width: '100%',
+                  }}
+                >
+                  <source src={props.post.Image} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              ) : (
+                <img
+                  src={props.post.Image}
+                  style={{ display: 'flex', width: '100%' }}
+                  alt=""
+                />
+              )}
             </div>
           </Col>
 

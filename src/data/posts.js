@@ -167,4 +167,12 @@ export default [
     timestamp: '2017-04-30 14:23:45',
     comments: [],
   },
+  {
+    id: 25,
+    type: 'video',
+    Image: `${process.env.PUBLIC_URL}/videos/0.mp4`,
+    likes: 777,
+    timestamp: '2017-04-30 14:23:45',
+    comments: [],
+  },
 ]

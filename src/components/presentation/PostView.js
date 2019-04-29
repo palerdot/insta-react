@@ -30,7 +30,20 @@ class PostView extends React.Component {
           onMouseLeave={() => this.setState({ show_info: false })}
           onClick={() => this.props.showUserModal(this.props)}
         >
-          <CardImg width="100%" src={props.Image} alt="Card image cap" />
+          {props.type === 'video' ? (
+            <video
+              controls
+              style={{
+                width: '100%',
+              }}
+            >
+              <source src={props.Image} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          ) : (
+            <CardImg width="100%" src={props.Image} alt="Card image cap" />
+          )}
+
           <CardImgOverlay
             style={{
               visibility: this.state.show_info ? 'visible' : 'hidden',
