@@ -67,8 +67,8 @@ function FooterMeditation({ meditation, source }) {
         style={{
           padding: '7px 11px',
           background: '#555',
-          fontSize: '17px',
-          lineHeight: '31px',
+          fontSize: '1rem',
+          lineHeight: '1.9rem',
         }}
       >
         {meditation}

@@ -164,6 +164,11 @@ html, body {
   color: #DEDEDE;
 }
 
+.meditation-modal .modal-body {
+  max-height: 333px;
+  overflow-y: auto;
+}
+
 .meditation-modal .modal-footer {
   border-top: thin solid #555;
 }
