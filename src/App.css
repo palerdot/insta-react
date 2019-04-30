@@ -149,3 +149,21 @@ html, body {
 .meditation-progress {
   background: steelblue;
 }
+
+/* meditations modal */
+.meditation-modal .modal-content {
+  background: #333;
+  color: #DEDEDE;
+}
+
+.meditation-modal .modal-header {
+  border-bottom: thin solid #555;
+}
+
+.meditation-modal .modal-header button {
+  color: #DEDEDE;
+}
+
+.meditation-modal .modal-footer {
+  border-top: thin solid #555;
+}
