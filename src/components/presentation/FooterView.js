@@ -33,6 +33,11 @@ export default function Footer(props) {
       `,
       source: `Book 9, Verse 13`,
     },
+    {
+      meditation: `“Things stand outside the gates [of our soul], keeping themselves to themselves, neither knowing nor stating anything about themselves. So what is it that states a judgement about them? Our ruling centre.”
+      `,
+      source: `Book 9, Verse 15`,
+    },
   ]
 
   return (
