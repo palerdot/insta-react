@@ -38,6 +38,16 @@ export default function Footer(props) {
       `,
       source: `Book 9, Verse 15`,
     },
+    {
+      meditation: `“For the stone thrown into the air, it is no bad thing to fall down again, just as it was no good thing to rise up”
+      `,
+      source: `Book 9, Verse 17`,
+    },
+    {
+      meditation: `“Penetrate within them, into their ruling centres, and you will see what judges you are afraid of, and what manner of judges they are with regard to themselves”
+      `,
+      source: `Book 9, Verse 18`,
+    },
   ]
 
   return (
