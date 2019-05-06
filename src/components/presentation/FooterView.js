@@ -48,6 +48,11 @@ export default function Footer(props) {
       `,
       source: `Book 9, Verse 18`,
     },
+    {
+      meditation: `“You have the power to rid yourself of many superfluous troubles which exist only in your own imagination; and you will then create ample room for yourself to embrace the whole universe in your thoughts and encompass everlasting time, and to reflect on the rapid change in every part of every particular thing, and the briefness of the span of time between birth and dissolution, and how vast is the expanse of time that stretches before our birth and how equally boundless the time that will follow after our dissolution.”
+      `,
+      source: `Book 9, Verse 32`,
+    },
   ]
 
   return (
