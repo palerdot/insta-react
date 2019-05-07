@@ -53,6 +53,11 @@ export default function Footer(props) {
       `,
       source: `Book 9, Verse 32`,
     },
+    {
+      meditation: `“ Loss is nothing other than change; and change is the delight of universal nature, according to whose will all things come to pass well.”
+      `,
+      source: `Book 9, Verse 35`,
+    },
   ]
 
   return (
