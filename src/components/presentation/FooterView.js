@@ -58,6 +58,11 @@ export default function Footer(props) {
       `,
       source: `Book 9, Verse 35`,
     },
+    {
+      meditation: `“Enough of all this miserable way of life, this whining and apishness. Why are you troubled? What is new in all this? What is there to disconcert you? Is it the causal aspect of things? Consider that. The material? Then consider that. Apart from these, there is nothing.”
+      `,
+      source: `Book 9, Verse 37`,
+    },
   ]
 
   return (
