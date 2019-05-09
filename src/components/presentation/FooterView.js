@@ -63,6 +63,11 @@ export default function Footer(props) {
       `,
       source: `Book 9, Verse 37`,
     },
+    {
+      meditation: `“In any case, who told you that the gods do not assist us even in things that lie within our power? Begin at least to pray so, and you will see. That man prays, ‘May I come to sleep with that woman,’ but you, ‘May I not desire to sleep with her.’ Another prays, ‘May I be rid of this man,’ but you, ‘May I no longer wish to be rid of him.’ Or another, ‘May I not lose my little child,’ but you, ‘May I not be afraid of losing him.’ In a word, turn your prayers round in such a way, and see what comes of it”
+      `,
+      source: `Book 9, Verse 40`,
+    },
   ]
 
   return (
