@@ -68,6 +68,11 @@ export default function Footer(props) {
       `,
       source: `Book 9, Verse 40`,
     },
+    {
+      meditation: `“Accordingly, a healthy mind should be ready for all that comes about; but the mind which cries ‘Let my children be safe and sound!’ or ‘Let everyone praise me whatever I do!’ is like an eye that seeks only for green, or teeth that seek only for what is tender.”
+      `,
+      source: `Book 10, Verse 35`,
+    },
   ]
 
   return (
