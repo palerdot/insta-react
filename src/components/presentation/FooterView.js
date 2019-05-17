@@ -73,6 +73,11 @@ export default function Footer(props) {
       `,
       source: `Book 10, Verse 35`,
     },
+    {
+      meditation: `“The sphere* of the soul remains faithful to its form when it neither reaches out towards anything outside itself nor contracts inwards, and when it is neither dispersed abroad nor sinks back into itself, but shines forth with a steady light by which it sees the truth of all things and the truth within itself.”
+      `,
+      source: `Book 11, Verse 12`,
+    },
   ]
 
   return (
