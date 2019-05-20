@@ -9,9 +9,6 @@ import {
 } from 'reactstrap'
 
 export default function Footer(props) {
-  const [isModalOpen, setModalState] = useState(false)
-  const toggleModal = () => setModalState(!isModalOpen)
-
   const footer_meditations = [
     {
       meditation: `“They kill you, cut you up, pursue you with curses.’ And how does that prevent your mind from remaining pure, balanced, temperate, and just? It is as if someone were standing by a sweet clear-flowing spring* and hurling curses at it: but for all that, it never stops brimming over with water good to drink, and if he throws mud into it, or dung, the spring will swiftly disperse it and wash it away, and suffer no defilement. How, then, are you to have an ever-flowing spring in you, and not a pool of standing water? If you hold firm to independence at every hour, along with kindness, simplicity, and reverence.”
@@ -78,7 +75,18 @@ export default function Footer(props) {
       `,
       source: `Book 11, Verse 12`,
     },
+    {
+      meditation: `“Always live the finest of lives; and the power to do so lies in one’s soul, if one is indifferent to things that are indifferent.”
+      
+      “Bear in mind, too, that we shall have to attend to these matters for only a short while, and then our life shall be over. And after all, what trouble can they bring? If they are in accordance with nature, rejoice in them, and let them be no hardship to you; and if they are contrary to nature, seek for what your own nature requires and strive towards that, inglorious though it may be; for everyone can be pardoned for seeking his own good.” 
+      `,
+      source: `Book 11, Verse 16`,
+    },
   ]
+
+  const [isModalOpen, setModalState] = useState(false)
+  const toggleModal = () => setModalState(!isModalOpen)
+  const [meditations, setMeditations] = useState(footer_meditations)
 
   return (
     <div
@@ -96,9 +104,22 @@ export default function Footer(props) {
         toggle={toggleModal}
         className={'meditation-modal'}
       >
-        <ModalHeader toggle={toggleModal}>Meditations</ModalHeader>
+        <ModalHeader toggle={toggleModal}>
+          Meditations
+          <Button
+            color="info"
+            outline
+            size={'sm'}
+            style={{
+              margin: '0 1.1em',
+            }}
+            onClick={e => setMeditations([...meditations.reverse()])}
+          >
+            Ô
+          </Button>
+        </ModalHeader>
         <ModalBody>
-          {footer_meditations.map((m, index) => (
+          {meditations.map((m, index) => (
             <FooterMeditation key={index} {...m} />
           ))}
         </ModalBody>
