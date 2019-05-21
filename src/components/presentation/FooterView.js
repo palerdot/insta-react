@@ -82,6 +82,23 @@ export default function Footer(props) {
       `,
       source: `Book 11, Verse 16`,
     },
+    {
+      meditation: `“that it is not people’s actions that trouble us (for those are a matter for their own ruling centres) but the opinions that we form about those actions. So eliminate your judgement that this or that is of harm to you, make up your mind to discard that opinion, and your anger will be at an end.”
+      
+      “that the anger and distress that we feel at such behaviour bring us more suffering than the very things that give rise to that anger and distress.”
+      `,
+      source: `Book 11, Verse 18`,
+    },
+    {
+      meditation: `“And if you will, accept this tenth gift from Apollo, the leader of the Muses, namely, that it is sheer madness to expect the bad to do no wrong; for that is to wish for the impossible. But to allow that they should do wrong to others, yet demand that they should do no wrong to yourself, is senseless and tyrannical.”
+      `,
+      source: `Book 11, Verse 18`,
+    },
+    {
+      meditation: `“There are four principal lapses of the ruling centre which you must guard against at all times, and, whenever they are detected, wholly extirpate, reminding yourself with regard to each: this idea is not necessary; this other leads to a loosening of social ties; or again, what you are about to say does not come from your heart (and to say something that does not come from your heart you must consider to be altogether out of place). And the fourth lapse which should cause you to reproach yourself is this, that the more divine part of you* has been overpowered and has succumbed to what is inferior and perishable in you, your body, and its gross pleasures.”
+      `,
+      source: `Book 11, Verse 19`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
