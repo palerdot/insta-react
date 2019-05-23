@@ -99,6 +99,12 @@ export default function Footer(props) {
       `,
       source: `Book 11, Verse 19`,
     },
+    {
+      meditation: `
+      “All those things which you hope to attain by a circuitous route, you can secure at this moment, if you do not deny them to yourself; I mean, if you leave all the past behind you and entrust the future to providence, and, concerning yourself with the present alone, guide that to holiness and justice; to holiness, so that you may love what is allotted to you, for nature brought it to you, and you to it; and to justice, so that you may speak the truth freely and without equivocation, and conform in your actions to what is lawful and equitable. And do not allow yourself to be hindered by another’s evil or opinion or words, and still less, the sensations of the flesh that has congealed around you (for the part that suffers the ill must see to that). If then, when the time for your departure draws near, you have put all else behind you and you honour your ruling centre alone and what is divine within you, and if what you hold in fear is not that some day you will cease to live, but rather that you may never begin to live according to “nature, you will be a man who is worthy of the universe that brought you to birth, and you will no longer be a stranger in your native land, wondering at what happens “day after day as if it were beyond foreseeing, and hanging on to one thing after another.”
+      `,
+      source: `Book 12, Verse 1`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
