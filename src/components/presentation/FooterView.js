@@ -105,6 +105,12 @@ export default function Footer(props) {
       `,
       source: `Book 12, Verse 1`,
     },
+    {
+      meditation: `
+      “I have often marvelled at how everyone loves himself above all others, yet places less value on his own opinion of himself than that of everyone else. At all events, if a god or some wise teacher presented himself and told him not to entertain any thought or idea in his mind without stating it aloud as soon as he had conceived it, he would not abide it for even a single day. So much greater is our respect for what our neighbours think of us than what we think of ourselves!”
+      `,
+      source: `Book 12, Verse 4`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
