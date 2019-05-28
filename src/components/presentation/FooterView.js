@@ -111,6 +111,11 @@ export default function Footer(props) {
       `,
       source: `Book 12, Verse 4`,
     },
+    {
+      meditation: `“Look at the underlying causes of things, stripped of their covering; and consider what your actions are aiming at, and what pain, pleasure, death, and fame truly are, and who is really to blame if a person is disturbed within, and how no one can be obstructed by another, and that everything turns on opinion.”
+     `,
+      source: `Book 12, Verse 8`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
