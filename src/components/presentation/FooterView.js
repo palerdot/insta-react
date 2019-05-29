@@ -116,6 +116,11 @@ export default function Footer(props) {
      `,
       source: `Book 12, Verse 8`,
     },
+    {
+      meditation: `“How ridiculous and ignorant of the world is one who is surprised at anything that comes to pass in life.”
+     `,
+      source: `Book 12, Verse 13`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
