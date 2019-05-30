@@ -150,6 +150,30 @@ export default function Footer(props) {
     `,
       source: `Book 12, Verse 25`,
     },
+    {
+      meditation: `“How small a fraction of infinite and unfathomable time has been assigned to each one of us. For all too swiftly it is swallowed up in eternity. And how small a part of universal substance, how small a part of universal soul. And how small is this clod of earth that you are creeping over when set against the earth as a whole. Bearing all of this in mind, imagine nothing to be of any great moment apart from this, that you should act as your own nature directs, and endure whatever universal nature brings.”
+
+     `,
+      source: `Book 12, Verse 32`,
+    },
+    {
+      meditation: `“How is your ruling centre employing itself ? For everything rests on that. All else, be it within your control or outside it, is merely dead matter and smoke.”
+
+    `,
+      source: `Book 12, Verse 33`,
+    },
+    {
+      meditation: `“One to whom that alone is good which comes in good season, to whom it is all the same whether he performs a greater or a lesser number of actions according to right reason, to whom it makes no difference whether he looks upon the world for a longer or a shorter period of time—to such a person not even death can hold any terror.”
+
+    `,
+      source: `Book 12, Verse 35`,
+    },
+    {
+      meditation: `“My friend, you have been a citizen of this great city [of the universe]. What difference* if you live in it for five years or a hundred? For what is laid down in its laws is equitable for all. Where is the hardship, then, if it is no tyrant or unjust judge who sends you out of the city, but nature who brought you into it? It is just as if the director of a show,* after first engaging an actor, were dismissing him from the stage. ‘But I haven’t played all five acts, only three!’ Very well; but in life three can make up a full play. For the one who determines when it is complete is he who once arranged for your composition and now arranges for your dissolution, while you for your part are responsible for neither. So make your departure with a good grace, as he who is releasing you shows a good grace.”
+
+     `,
+      source: `*** FINAL *** Book 12, Verse 36`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
