@@ -121,6 +121,35 @@ export default function Footer(props) {
      `,
       source: `Book 12, Verse 13`,
     },
+    {
+      meditation: `“Always consider exactly what it is that is creating an impression in your mind, and unfold its nature by analysing it into its cause, its matter, its relation, and its natural duration within which it must reach its cessation.”
+    `,
+      source: `Book 12, Verse 18`,
+    },
+    {
+      meditation: `“Realize at last that you have something more powerful and more divine within you than the things that give rise to your passions and set you moving like a puppet. What is your mind taken up with at the present moment? Is it not fear? Suspicion? Appetite? Or something else of that kind?”
+
+    `,
+      source: `Book 12, Verse 19`,
+    },
+    {
+      meditation: `“All turns on judgement, and that rests with you. So when you will, pluck out the judgement, and then, as though you had passed the headland, the sea is calm, and all is still, and there is not a wave in the bay.”
+
+    `,
+      source: `Book 12, Verse 22`,
+    },
+    {
+      meditation: `“and bear in mind that whatever happens to you from outside is due either to chance or to providence, and that one should neither blame chance nor bring accusations against providence.”
+
+     `,
+      source: `Book 12, Verse 24`,
+    },
+    {
+      meditation: `“Cast out the judgement, and then you are saved. So what is preventing you from casting it out?”
+
+    `,
+      source: `Book 12, Verse 25`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
