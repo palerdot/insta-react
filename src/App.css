@@ -187,6 +187,14 @@ html, body {
   border-top: thin solid #555;
 }
 
+.meditation-modal .nav-tabs {
+  font-size: 13px;
+  align-items: center;
+}
+
+.meditation-modal .nav-tabs .nav-link {
+  padding: 0.3em;
+}
 
 /* meditation-modal tab header hover styles */
 .meditation-modal .nav-tabs .nav-link:hover {

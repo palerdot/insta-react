@@ -240,7 +240,7 @@ export default function Footer({ starred, starMeditation, unstarMeditation }) {
                   size={'sm'}
                   style={{
                     display: 'inline-block',
-                    margin: '0 1.1em',
+                    margin: '0 0.3em',
                   }}
                   onClick={e => setMeditations([...meditations.reverse()])}
                 >
