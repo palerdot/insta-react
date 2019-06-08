@@ -19,6 +19,7 @@ import InitialPostsData from '../data/posts'
 // define our initial state
 const initialState = {
   posts: InitialPostsData,
+  starredMeditations: [23, 25, 27],
 }
 
 // small helper function to get unique board id by scanning through the entries
@@ -111,10 +112,29 @@ function postReducer(state = initialState.posts, action) {
   }
 }
 
+// starred meditations reducer
+function starredMeditationsReducer(
+  state = initialState.starredMeditations,
+  action
+) {
+  switch (action.type) {
+    case 'STAR_MEDITATION':
+      return _.uniq([...state, action.id])
+    case 'UNSTAR_MEDITATION':
+      return _.filter(state, m => m !== action.id)
+    default:
+      return state
+  }
+}
+
 // OVERALL REDUCER (to be exported)
 // we are explicitly not using combineReducers to have better visibility of what is going on
 export default function appReducer(state = initialState, action) {
   return {
     posts: postReducer(state.posts, action),
+    starredMeditations: starredMeditationsReducer(
+      state.starredMeditations,
+      action
+    ),
   }
 }

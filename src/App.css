@@ -74,6 +74,20 @@ html, body {
   background-image: url(https://www.instagram.com/static/bundles/base/sprite_core.png/00b79edf00fd.png)
 }
 
+.star-badge {
+  background: url(https://www.instagram.com/static/bundles/base/sprite_core.png/00b79edf00fd.png) no-repeat -52px -399px;
+	width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.nostar-badge {
+  background: url(https://www.instagram.com/static/bundles/base/sprite_core.png/00b79edf00fd.png) no-repeat -331px -358px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
 .empty-heart-badge {
   background-position: 0 -400px;
   width: 24px;
@@ -171,4 +185,10 @@ html, body {
 
 .meditation-modal .modal-footer {
   border-top: thin solid #555;
+}
+
+
+/* meditation-modal tab header hover styles */
+.meditation-modal .nav-tabs .nav-link:hover {
+    border-color: rgb(23, 162, 184);
 }

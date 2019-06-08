@@ -8,7 +8,11 @@ const Home = props => (
   <div>
     <User />
     <Posts posts={props.posts} />
-    <Footer />
+    <Footer
+      starred={props.starredMeditations}
+      starMeditation={props.starMeditation}
+      unstarMeditation={props.unstarMeditation}
+    />
   </div>
 )
 
