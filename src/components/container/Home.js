@@ -13,22 +13,4 @@ const mapStateToProps = state => {
   }
 }
 
-const mapDispatchToProps = dispatch => {
-  return {
-    starMeditation: ({ id }) =>
-      dispatch({
-        type: 'STAR_MEDITATION',
-        id,
-      }),
-    unstarMeditation: ({ id }) =>
-      dispatch({
-        type: 'UNSTAR_MEDITATION',
-        id,
-      }),
-  }
-}
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(HomeView)
+export default connect(mapStateToProps)(HomeView)

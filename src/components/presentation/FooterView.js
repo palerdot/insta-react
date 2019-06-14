@@ -12,8 +12,9 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap'
+import StarStatus from '../container/StarStatus'
 
-export default function Footer({ starred, starMeditation, unstarMeditation }) {
+export default function Footer({ starred }) {
   const footer_meditations = [
     {
       meditation:
@@ -263,27 +264,13 @@ export default function Footer({ starred, starMeditation, unstarMeditation }) {
           <TabContent activeTab={currentTab}>
             <TabPane tabId="all">
               {meditations.map(m => (
-                <FooterMeditation
-                  key={m.id}
-                  {...m}
-                  starred={starred}
-                  starMeditation={starMeditation}
-                  unstarMeditation={unstarMeditation}
-                />
+                <FooterMeditation key={m.id} {...m} />
               ))}
             </TabPane>
             <TabPane tabId="starred">
               {starred.map(s => {
                 const meditation = meditations.find(m => m.id === s)
-                return (
-                  <FooterMeditation
-                    key={meditation.id}
-                    {...meditation}
-                    starred={starred}
-                    starMeditation={starMeditation}
-                    unstarMeditation={unstarMeditation}
-                  />
-                )
+                return <FooterMeditation key={meditation.id} {...meditation} />
               })}
             </TabPane>
           </TabContent>
@@ -299,30 +286,8 @@ export default function Footer({ starred, starMeditation, unstarMeditation }) {
   )
 }
 
-function StarStatus({ id, starred, starMeditation, unstarMeditation }) {
-  const is_starred = starred.includes(id)
-  return (
-    <span
-      style={{
-        margin: '0 7px',
-      }}
-      className={is_starred ? 'star-badge' : 'nostar-badge'}
-      onClick={() =>
-        is_starred ? unstarMeditation({ id }) : starMeditation({ id })
-      }
-    />
-  )
-}
-
 // footer meditation
-function FooterMeditation({
-  meditation,
-  source,
-  id,
-  starred,
-  starMeditation,
-  unstarMeditation,
-}) {
+function FooterMeditation({ meditation, source, id }) {
   return (
     <div
       style={{
@@ -347,12 +312,7 @@ function FooterMeditation({
           padding: '13px 0',
         }}
       >
-        <StarStatus
-          id={id}
-          starred={starred}
-          starMeditation={starMeditation}
-          unstarMeditation={unstarMeditation}
-        />
+        <StarStatus id={id} />
         <Badge
           color="info"
           outline
