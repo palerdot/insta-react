@@ -6,7 +6,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.1.0",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.13",
     "noty": "^3.2.0-beta",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
