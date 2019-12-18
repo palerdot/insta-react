@@ -17,6 +17,11 @@ import StarStatus from '../container/StarStatus'
 export default function Footer({ starred }) {
   const footer_meditations = [
     {
+      meditation: ' wait’ and ‘hope’! ====> “there is neither happiness nor misfortune in this world, there is merely the comparison between one state and another, nothing more. Only someone who has suffered the deepest misfortune is capable of experiencing the heights of felicity. Maximilien, you must needs have wished to die, to know how good it is to live. So, do live and be happy, children dear to my heart, and never forget that, until the day when God deigns to unveil the future to mankind, all human wisdom is contained in these two words: ‘wait’ and ‘hope’!',
+      source: 'The Count of Monte Cristo',
+      id: 0,
+    },
+    {
       meditation:
         '“They kill you, cut you up, pursue you with curses.’ And how does that prevent your mind from remaining pure, balanced, temperate, and just? It is as if someone were standing by a sweet clear-flowing spring* and hurling curses at it: but for all that, it never stops brimming over with water good to drink, and if he throws mud into it, or dung, the spring will swiftly disperse it and wash it away, and suffer no defilement. How, then, are you to have an ever-flowing spring in you, and not a pool of standing water? If you hold firm to independence at every hour, along with kindness, simplicity, and reverence.”\n      ',
       source: 'Book 8. Verse 51',
