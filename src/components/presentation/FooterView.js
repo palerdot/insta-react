@@ -201,6 +201,12 @@ export default function Footer({ starred }) {
       source: '*** FINAL *** Book 12, Verse 36',
       id: 30,
     },
+
+    {
+      id: 31,
+      meditation: `“I yawned and grew sick to my stomach at the thought of sitting in an office, deprived of my liberty; ceasing to be master of my own time,’ wrote Adolf in Mein Kampf.”`,
+      source: `*** Ian Kershaw/Hitler  ***(Read on May 2020)`
+    }
   ]
 
   const [isModalOpen, setModalState] = useState(false)
