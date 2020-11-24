@@ -1,6 +1,23 @@
 {
-  "main.css": "static/css/main.b38c9273.css",
-  "main.css.map": "static/css/main.b38c9273.css.map",
-  "main.js": "static/js/main.faf42481.js",
-  "main.js.map": "static/js/main.faf42481.js.map"
+  "files": {
+    "main.css": "/insta-react/static/css/main.165e3650.chunk.css",
+    "main.js": "/insta-react/static/js/main.22009dd6.chunk.js",
+    "main.js.map": "/insta-react/static/js/main.22009dd6.chunk.js.map",
+    "runtime-main.js": "/insta-react/static/js/runtime-main.465153ac.js",
+    "runtime-main.js.map": "/insta-react/static/js/runtime-main.465153ac.js.map",
+    "static/css/2.b09f20c9.chunk.css": "/insta-react/static/css/2.b09f20c9.chunk.css",
+    "static/js/2.b778542c.chunk.js": "/insta-react/static/js/2.b778542c.chunk.js",
+    "static/js/2.b778542c.chunk.js.map": "/insta-react/static/js/2.b778542c.chunk.js.map",
+    "index.html": "/insta-react/index.html",
+    "static/css/2.b09f20c9.chunk.css.map": "/insta-react/static/css/2.b09f20c9.chunk.css.map",
+    "static/css/main.165e3650.chunk.css.map": "/insta-react/static/css/main.165e3650.chunk.css.map",
+    "static/js/2.b778542c.chunk.js.LICENSE.txt": "/insta-react/static/js/2.b778542c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.465153ac.js",
+    "static/css/2.b09f20c9.chunk.css",
+    "static/js/2.b778542c.chunk.js",
+    "static/css/main.165e3650.chunk.css",
+    "static/js/main.22009dd6.chunk.js"
+  ]
 }
