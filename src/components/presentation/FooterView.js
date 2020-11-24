@@ -232,6 +232,14 @@ export default function Footer({ starred }) {
       Oh divine One—shall I feel it again in the temple of nature and of mankind—Never?
       —No—Oh that would be too hard
       """
+
+      From this moment on, without hope and, he feared, without joy, 
+      he needed to be heroic just to live and to work. 
+      The Heiligenstadt Testament shows that he understood this with excruciating clarity. 
+      True heroism is usually called for in the face of suffering and death. 
+      It is rarely joyful. But in the letter Beethoven vowed to live with suffering and for his art, 
+      and he kept vows like that. His crisis had little observable effect on his output. 
+      In his work he had been soaring, and he was about to soar higher.
       `,
       source: `Beethoven (Heiliegenstadt letter) - Jan Swafford: Beethoven - Anguish and Triumph`,
     },
@@ -340,6 +348,7 @@ function FooterMeditation({ meditation, source, id }) {
           background: '#555',
           fontSize: '1rem',
           lineHeight: '1.9rem',
+          whiteSpace: 'pre-line',
         }}
       >
         {meditation}
