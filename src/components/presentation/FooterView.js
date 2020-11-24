@@ -17,7 +17,8 @@ import StarStatus from '../container/StarStatus'
 export default function Footer({ starred }) {
   const footer_meditations = [
     {
-      meditation: ' wait’ and ‘hope’! ====> “there is neither happiness nor misfortune in this world, there is merely the comparison between one state and another, nothing more. Only someone who has suffered the deepest misfortune is capable of experiencing the heights of felicity. Maximilien, you must needs have wished to die, to know how good it is to live. So, do live and be happy, children dear to my heart, and never forget that, until the day when God deigns to unveil the future to mankind, all human wisdom is contained in these two words: ‘wait’ and ‘hope’!',
+      meditation:
+        ' wait’ and ‘hope’! ====> “there is neither happiness nor misfortune in this world, there is merely the comparison between one state and another, nothing more. Only someone who has suffered the deepest misfortune is capable of experiencing the heights of felicity. Maximilien, you must needs have wished to die, to know how good it is to live. So, do live and be happy, children dear to my heart, and never forget that, until the day when God deigns to unveil the future to mankind, all human wisdom is contained in these two words: ‘wait’ and ‘hope’!',
       source: 'The Count of Monte Cristo',
       id: 0,
     },
@@ -205,8 +206,35 @@ export default function Footer({ starred }) {
     {
       id: 31,
       meditation: `“I yawned and grew sick to my stomach at the thought of sitting in an office, deprived of my liberty; ceasing to be master of my own time,’ wrote Adolf in Mein Kampf.”`,
-      source: `*** Ian Kershaw/Hitler  ***(Read on May 2020)`
-    }
+      source: `*** Ian Kershaw/Hitler  ***(Read on May 2020)`,
+    },
+
+    {
+      id: 32,
+      meditation: `
+      """
+      But what a humiliation for me when someone standing next to me heard 
+      a flute in the distance and I heard nothing, or someone heard a shepherd singing and
+      again I heard nothing. Such incidents drove me almost to despair,
+
+      It was only my art that held me back. 
+      Oh, it seemed impossible to me to leave this world before 
+      I had produced all that I felt capable of producing, 
+      and so I prolonged this wretched existence—truly wretched for so susceptible 
+      a body that a sudden change can plunge me from the best into the worst of states
+
+      Patience, they say, is what I must now choose for my guide, and I have done so—
+
+      Forced to become a philosopher already in my 28th year, (31 actually)
+      oh it is not easy, and for the artist much more difficult than for anyone else
+
+      it is so long since real joy echoed in my heart—Oh when—Oh when, 
+      Oh divine One—shall I feel it again in the temple of nature and of mankind—Never?
+      —No—Oh that would be too hard
+      """
+      `,
+      source: `Beethoven (Heiliegenstadt letter) - Jan Swafford: Beethoven - Anguish and Triumph`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
@@ -254,7 +282,7 @@ export default function Footer({ starred }) {
                     display: 'inline-block',
                     margin: '0 0.3em',
                   }}
-                  onClick={e => setMeditations([...meditations.reverse()])}
+                  onClick={(e) => setMeditations([...meditations.reverse()])}
                 >
                   Ô
                 </Button>
@@ -274,13 +302,13 @@ export default function Footer({ starred }) {
         <ModalBody>
           <TabContent activeTab={currentTab}>
             <TabPane tabId="all">
-              {meditations.map(m => (
+              {meditations.map((m) => (
                 <FooterMeditation key={m.id} {...m} />
               ))}
             </TabPane>
             <TabPane tabId="starred">
-              {starred.map(s => {
-                const meditation = meditations.find(m => m.id === s)
+              {starred.map((s) => {
+                const meditation = meditations.find((m) => m.id === s)
                 return <FooterMeditation key={meditation.id} {...meditation} />
               })}
             </TabPane>
