@@ -243,6 +243,23 @@ export default function Footer({ starred }) {
       `,
       source: `Beethoven (Heiliegenstadt letter) - Jan Swafford: Beethoven - Anguish and Triumph`,
     },
+
+    {
+      id: 33,
+      meditation: `
+      He spends hours lost in his raptus, improvising at the keyboard, 
+      ideas flowing from his fingers into sound, 
+      sketchbook on a table beside him to fix the sounds before they are gone. 
+      As he writes out the sketches he drums the beat with his hands and feet, 
+      cursing the notes for their recalcitrance. 
+      For Beethoven composing is a process physical as well as mental; 
+      his whole body is involved in it. 
+      Every day in all weathers he walks in hills and woods and country lanes, 
+      growling and howling and waving his arms conducting the music in his head, 
+      stopping to pencil ideas in the pocket sketchbooks he carries with him.
+      `,
+      source: `Beethoven - Anguish and Triumph`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
