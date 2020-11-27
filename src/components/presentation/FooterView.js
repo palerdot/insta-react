@@ -260,6 +260,19 @@ export default function Footer({ starred }) {
       `,
       source: `Beethoven - Anguish and Triumph`,
     },
+
+    {
+      id: 34,
+      meditation: `
+      Beethoven’s art and life had heated up to what would seem an unbearable degree. 
+      But he was capable of bearing extraordinary burdens, including the ones he heaped on himself. 
+      One of them was the height of the bar the new symphony set in his work. 
+      Another was the maddening and often debilitating state of his health: 
+      recurring fevers, painful and frightening abscesses, headaches that assaulted him for months, 
+      on top of his long-standing episodes of vomiting and diarrhea and the ongoing deterioration of his hearing
+      `,
+      source: `Beethoven - Anguish and Triumph`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
