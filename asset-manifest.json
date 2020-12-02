@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/insta-react/static/css/main.165e3650.chunk.css",
-    "main.js": "/insta-react/static/js/main.6809ff5a.chunk.js",
-    "main.js.map": "/insta-react/static/js/main.6809ff5a.chunk.js.map",
+    "main.js": "/insta-react/static/js/main.2bad45ce.chunk.js",
+    "main.js.map": "/insta-react/static/js/main.2bad45ce.chunk.js.map",
     "runtime-main.js": "/insta-react/static/js/runtime-main.465153ac.js",
     "runtime-main.js.map": "/insta-react/static/js/runtime-main.465153ac.js.map",
     "static/css/2.b09f20c9.chunk.css": "/insta-react/static/css/2.b09f20c9.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.b09f20c9.chunk.css",
     "static/js/2.b778542c.chunk.js",
     "static/css/main.165e3650.chunk.css",
-    "static/js/main.6809ff5a.chunk.js"
+    "static/js/main.2bad45ce.chunk.js"
   ]
 }
