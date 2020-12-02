@@ -289,6 +289,24 @@ export default function Footer({ starred }) {
       `,
       source: `சுஜாதா - கணையாழி கடைசி பக்கம், நவம்பர் 1990`,
     },
+
+    {
+      id: 36,
+      meditation: `
+      Trémont observed a good deal and wrote one of the most vivid firsthand descriptions 
+      of the Beethoven household style (worse than usual at that point because he had no servant):
+ 
+      Picture to yourself the dirtiest, 
+      most disorderly place imaginable—blotches of moisture covered the ceiling; an oldish grand piano, 
+      on which the dust disputed the place with various pieces of engraved and manuscript music; 
+      under the piano (I do not exaggerate) an unemptied chamber pot; beside it, 
+      a small walnut table accustomed to the frequent overturning of the secretary placed upon it; 
+      a quantity of pens encrusted with ink . . . then more music. 
+      The chairs, mostly cane-seated, were covered with plates 
+      bearing the remains of last night’s supper, and with wearing apparel, etc
+      `,
+      source: `Beethoven - Anguish and Triumph`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
