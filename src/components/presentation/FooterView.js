@@ -307,6 +307,31 @@ export default function Footer({ starred }) {
       `,
       source: `Beethoven - Anguish and Triumph`,
     },
+
+    {
+      id: 37,
+      meditation: `
+
+      Now, here’s the thing about Jim Koch when it comes to fear and risk: 
+      this was not the first time he had taken a significant jump away from the safe, familiar path. 
+      In his midtwenties, while pursuing a joint JD and MBA, he dropped out of Harvard 
+      to become an Outward Bound instructor. 
+      
+      “I just didn’t want to make decisions that would bind me for the rest of my life 
+      [while still] having more to do,” he explained. “And I also realized that there are things 
+      you can do in your twenties that if you don’t do them then, you will never be able to do them.”
+      For the next three and a half years, 
+      Jim spent his life outdoors, rock climbing, kayaking, backpacking, doing adventurous things 
+      that probably scared his parents half to death. 
+      But in doing them he learned that “you don’t need that much to live on 
+      if you’re really enjoying what you’re doing.” 
+      He also learned that nothing is permanent and that 
+      you can always go back once a different path has run its course. 
+      It was an experience that changed Jim’s life. 
+
+      `,
+      source: 'How I Built This',
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
