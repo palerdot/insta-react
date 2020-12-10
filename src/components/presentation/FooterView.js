@@ -333,6 +333,26 @@ export default function Footer({ starred }) {
       There are plenty of things that are scary but aren’t dangerous. 
       And there are things that are dangerous but not scary. And those are the things that get you
 
+      Failing is scary. Wasting your life is dangerous.
+
+      `,
+      source: 'How I Built This',
+    },
+
+    {
+      id: 38,
+      meditation: `
+      the scariest part of starting Dell Computer Corporation 
+      was the same thing that is scary about starting any business: 
+      it’s the unknown. What did a teenage Michael Dell know about running a business? About hiring? 
+      About leading people? About finding and leasing office space? 
+      About corporate taxes? What do any of us know about that stuff before we confront it? Nothing. 
+      That is truly terrifying to any first-time entrepreneur. But it is also eminently knowable—if you choose to learn it.
+      The danger for Michael was in relenting to his parents’ demands that he become a doctor, 
+      in hating every waking second of it 
+      while he watched the personal computing revolution unfold in front of him, 
+      and then in resenting his family for the rest of his life because they pushed him down a path 
+      that he knew in his heart was wrong for him
       `,
       source: 'How I Built This',
     },
