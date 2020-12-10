@@ -329,6 +329,10 @@ export default function Footer({ starred }) {
       you can always go back once a different path has run its course. 
       It was an experience that changed Jim’s life. 
 
+      It is the difference in life between things that are scary and things that are dangerous. 
+      There are plenty of things that are scary but aren’t dangerous. 
+      And there are things that are dangerous but not scary. And those are the things that get you
+
       `,
       source: 'How I Built This',
     },
