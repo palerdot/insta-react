@@ -370,6 +370,15 @@ export default function Footer({ starred }) {
       `,
       source: `Beethoven - Anguish and Triumph`,
     },
+    {
+      id: 40,
+      meditation: `
+      “His music and his raptus were his only escape, 
+      even though in his extremity he had taken to praying to God for help in a way he had not before. 
+      His prayers were not answered.”
+      `,
+      source: `Beethoven - Anguish and Triumph`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
