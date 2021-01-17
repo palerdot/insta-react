@@ -356,6 +356,20 @@ export default function Footer({ starred }) {
       `,
       source: 'How I Built This',
     },
+    {
+      id: 39,
+      meditation: `
+      “joy through suffering.” 
+      If he was to find any joy in the life fate had decreed for him, 
+      a path through suffering was the only available route. 
+      His old defiance had given way to resignation. 
+      If no one would marry him, to protect himself he rejected marriage. 
+      In the process, probably without realizing it, 
+      he echoed what his careworn, disillusioned mother Maria had said long before: 
+      “What is marriage but a little joy, then afterward a chain of sorrows.”
+      `,
+      source: `Beethoven - Anguish and Triumph`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
