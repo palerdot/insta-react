@@ -379,6 +379,32 @@ export default function Footer({ starred }) {
       `,
       source: `Beethoven - Anguish and Triumph`,
     },
+    {
+      id: 41,
+      meditation: `
+        “Beethoven reported to Zmeskall, 
+        “Owing to a chill I am now feeling very much worse . . . 
+        I now know what it feels like to move daily nearer to my grave.”
+      `,
+      source: `Beethoven - Anguish and Triumph`,
+    },
+    {
+      id: 42,
+      meditation: `
+        “What is difficult is beautiful and good.”
+      `,
+      source: `Beethoven - Anguish and Triumph`,
+    },
+    {
+      id: 43,
+      meditation: `
+      “I cannot write what I should like best to write, 
+      but that which the pressing need of money obliges me to write. 
+      This is not to say that I write only for money—when 
+      this period is past I hope to write what for me and for art is above all—Faust.”
+      `,
+      source: `Beethoven - Anguish and Triumph`,
+    },
   ]
 
   const [isModalOpen, setModalState] = useState(false)
