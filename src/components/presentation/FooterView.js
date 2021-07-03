@@ -405,6 +405,13 @@ export default function Footer({ starred }) {
       `,
       source: `Beethoven - Anguish and Triumph`,
     },
+    {
+      id: 44,
+      meditation: `
+      “despite ‘an astonishing degree of ignorance on the part of the left (supposed major) hemisphere about what its partner, the right (supposed minor) hemisphere, [is] up to, [it] abrogates decision-making to itself in the absence of any rational evidence as to what is going on”
+      `,
+      source: `The Master and his Emissary`
+    }
   ]
 
   const [isModalOpen, setModalState] = useState(false)
