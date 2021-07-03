@@ -409,6 +409,11 @@ export default function Footer({ starred }) {
       id: 44,
       meditation: `
       “despite ‘an astonishing degree of ignorance on the part of the left (supposed major) hemisphere about what its partner, the right (supposed minor) hemisphere, [is] up to, [it] abrogates decision-making to itself in the absence of any rational evidence as to what is going on”
+
+      “The really interesting finding here, as the authors themselves put it, is that ‘without batting an eye’ the left hemisphere draws mistaken conclusions from the information available to it and lays down the law about what only the right hemisphere can know: ‘yet, the left did not offer its suggestion in a guessing vein but rather [as] a statement of fact…”
+
+      “So the left hemisphere needs certainty and needs to be right. The right hemisphere makes it possible to hold several ambiguous possibilities in suspension together without premature closure on one outcome.”
+
       `,
       source: `The Master and his Emissary`
     }
