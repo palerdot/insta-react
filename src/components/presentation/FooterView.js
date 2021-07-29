@@ -416,6 +416,20 @@ export default function Footer({ starred }) {
 
       `,
       source: `The Master and his Emissary`
+    },
+    {
+      id: 45,
+      meditation: `
+        “The difficult bit about the ‘stickiness’ of the left hemisphere is that once we have already decided what the world is going to reveal, we are unlikely to get beyond it. We are prisoners of expectation.”
+      `,
+      source: `The Master and his Emissary`
+    },
+    {
+      id: 46,
+      meditation: `
+      “The left hemisphere is always engaged in a purpose: it always has an end in view, and downgrades whatever has no instrumental purpose in sight. The right hemisphere, by contrast, has no designs on anything. It is vigilant for whatever is, without preconceptions, without a predefined purpose. The right hemisphere has a relationship of concern or care (what Heidegger calls Sorge) with whatever happens to be.”
+      `,
+      source: `The Master and his Emissary`
     }
   ]
 
