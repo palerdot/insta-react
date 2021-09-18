@@ -430,6 +430,20 @@ export default function Footer({ starred }) {
       “The left hemisphere is always engaged in a purpose: it always has an end in view, and downgrades whatever has no instrumental purpose in sight. The right hemisphere, by contrast, has no designs on anything. It is vigilant for whatever is, without preconceptions, without a predefined purpose. The right hemisphere has a relationship of concern or care (what Heidegger calls Sorge) with whatever happens to be.”
       `,
       source: `The Master and his Emissary`
+    },
+    {
+      id: 47,
+      meditation: `
+      “The left hemisphere is competitive, and its concern, its prime motivation, is power.”
+      `,
+      source: `The Master and his Emissary`
+    },
+    {
+      id: 48,
+      meditation: `
+        “Thus famously Leonardo advised painters to take their starting point from the shape of a chance outline, created by, for example, damp stains on a wall, ‘because by indistinct things the mind is stimulated to new inventions’.”
+      `,
+      source: `The Master and his Emissary`
     }
   ]
 
